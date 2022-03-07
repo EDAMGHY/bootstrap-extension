@@ -1,0 +1,34 @@
+{
+  "name": "bs4snippets",
+  "displayName": "bs4snippets",
+  "description": "Simple Bootstrap Snippets",
+  "publisher": "Abdellah DAMRI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EDAMGHY"
+  },
+  "icon": "bootstrap-logo.png",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
